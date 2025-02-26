@@ -119,4 +119,12 @@ console.log(sunnyValue)
 const values = {}
 console.log(values)
 
+//একটি অবজেক্ট তৈরি করো যেখানে name এবং age থাকবে এবং এগুলো প্রিন্ট করো।
+
+const na = {
+    name: 'apon',
+    age: 23
+}
+console.log(na.name, na.age)
+
 
