@@ -94,5 +94,11 @@ console.log(isData)
 const isV = null
 console.log(isV)
 
+//একটি সংখ্যা ইনপুট নাও, যদি সেটি 10 এর সমান হয় তবে true, না হলে false রিটার্ন করো।
+
+const w1 = 10
+const q1 = (w1 === 10)
+console.log(q1)
+
 
 
