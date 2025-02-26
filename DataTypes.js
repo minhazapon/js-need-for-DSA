@@ -41,3 +41,8 @@ console.log(b)
 
 const x1 = "javascript"
 console.log(x1[0])
+
+//একটি দশমিক সংখ্যা ইনপুট নিয়ে সেটাকে পূর্ণসংখ্যায় (integer) কনভার্ট করো।
+
+const isNumber = 122.909
+console.log(Math.floor(isNumber))
