@@ -127,4 +127,11 @@ const na = {
 }
 console.log(na.name, na.age)
 
+//একটি অবজেক্ট ইনপুট নিয়ে সেটার name প্রপার্টি প্রিন্ট করো।
+
+const namess = {
+    name: 'js'
+}
+console.log(namess.name)
+
 
