@@ -106,5 +106,13 @@ const z1 = 9
 const all = (z1 > 5 && z1 < 10)
 console.log(all)
 
+//একটি বুলিয়ান ভেরিয়েবল isSunny = false নাও, যদি এটি false হয় তাহলে "Take an umbrella!" প্রিন্ট করো।
+
+const isSunny = false
+const sunnyValue = (isSunny === false ? "Take an umbrella" : "code is a not ok")
+console.log(sunnyValue)
+
+
+
 
 
