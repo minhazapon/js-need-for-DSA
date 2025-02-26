@@ -134,4 +134,11 @@ const namess = {
 }
 console.log(namess.name)
 
+//একটি অবজেক্টে নতুন প্রপার্টি city যোগ করো।
+
+const c = {
+    city: 'jhenaidah'
+}
+console.log(c.city)
+
 
