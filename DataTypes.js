@@ -150,3 +150,13 @@ const aa = {
 
 delete aa.age
 console.log(aa)
+
+//একটি ফাঁকা অ্যারে [] তৈরি করো।
+
+const arr = [];
+console.log(arr)
+
+//একটি অ্যারে [1, 2, 3, 4, 5] প্রিন্ট করো।
+
+const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log(arr1)
