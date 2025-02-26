@@ -36,3 +36,8 @@ console.log(strNum)
 const strN = "bangladesh"
 const b = strN.toUpperCase()
 console.log(b)
+
+//একটি স্ট্রিং ইনপুট নিয়ে সেটার প্রথম অক্ষর বের করো।
+
+const x1 = "javascript"
+console.log(x1[0])
