@@ -100,5 +100,11 @@ const w1 = 10
 const q1 = (w1 === 10)
 console.log(q1)
 
+//একটি সংখ্যা ইনপুট নাও, যদি সেটি 5 এবং 10 এর মধ্যে থাকে তবে true রিটার্ন করো।
+
+const z1 = 9
+const all = (z1 > 5 && z1 < 10)
+console.log(all)
+
 
 
