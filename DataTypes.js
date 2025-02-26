@@ -72,5 +72,17 @@ const n2 = 300;
 const allN = n1 < n2
 console.log(allN)
 
+//একটি সংখ্যা ইনপুট নিয়ে দেখো সেটি জোড় (even) নাকি বিজোড় (odd)।
+
+const nn = 800
+const xx = (nn % 2 === 0 ? "even" : "ood")
+console.log(xx)
+
+//একটি স্ট্রিং ইনপুট নাও, যদি সেটি খালি (empty) হয় তবে true রিটার্ন করো, না হলে false।
+
+const y = ""
+const xy = (y.length === 0)
+console.log(xy)
+
 
 
