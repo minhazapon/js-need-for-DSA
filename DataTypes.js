@@ -172,3 +172,8 @@ console.log(arr2)
 
 const allValues = ["apon", 'buger', 'pizza', 'biriyani']
 console.log(allValues[0])
+
+//একটি অ্যারের দৈর্ঘ্য বের করো।
+
+const XXX = [1, 2, 3, 4, 5, 6, 7, 8, 9, 99, 999, 9999]
+console.log(XXX.length)
