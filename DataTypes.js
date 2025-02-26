@@ -60,3 +60,17 @@ console.log(isValue)
 const isAponJSDEV = true
 console.log(isAponJSDEV)
 
+//একটি বুলিয়ান ভেরিয়েবল তৈরি করো যেটা false হবে।
+
+const isPYDeV = false
+console.log(isPYDeV)
+
+//দুটি সংখ্যার মধ্যে তুলনা করে দেখাও কোনটা বড় (>, <)
+
+const n1 = 200;
+const n2 = 300;
+const allN = n1 < n2
+console.log(allN)
+
+
+
