@@ -53,3 +53,10 @@ const five = 500
 const isValue = five / 5
 console.log(isValue)
 
+//Boolean, Undefined & Nulls
+
+//একটি বুলিয়ান ভেরিয়েবল তৈরি করো যেটা true হবে।
+
+const isAponJSDEV = true
+console.log(isAponJSDEV)
+
