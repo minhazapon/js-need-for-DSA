@@ -141,4 +141,12 @@ const c = {
 }
 console.log(c.city)
 
+//একটি অবজেক্ট থেকে একটি প্রপার্টি age ডিলিট করো।
 
+const aa = {
+    name: 'bangladesh',
+    age: 23
+}
+
+delete aa.age
+console.log(aa)
