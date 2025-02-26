@@ -46,3 +46,10 @@ console.log(x1[0])
 
 const isNumber = 122.909
 console.log(Math.floor(isNumber))
+
+//একটি সংখ্যা ইনপুট নিয়ে সেটাকে ৫ দিয়ে ভাগ করো এবং ভাগফল দেখাও।
+
+const five = 500
+const isValue = five / 5
+console.log(isValue)
+
