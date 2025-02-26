@@ -19,3 +19,8 @@ console.log(x)
 
 const num = 20 * 2
 console.log(num)
+
+//একটি স্ট্রিং ইনপুট নিয়ে সেটার দৈর্ঘ্য (length) বের করো।
+
+const names = "minhazul abedin apon"
+console.log(names.length)
