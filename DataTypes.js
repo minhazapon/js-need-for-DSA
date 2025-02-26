@@ -112,7 +112,11 @@ const isSunny = false
 const sunnyValue = (isSunny === false ? "Take an umbrella" : "code is a not ok")
 console.log(sunnyValue)
 
+//Object & Array Basics
 
+//একটি ফাঁকা অবজেক্ট {} তৈরি করো।
 
+const values = {}
+console.log(values)
 
 
