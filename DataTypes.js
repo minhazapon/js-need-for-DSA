@@ -84,5 +84,11 @@ const y = ""
 const xy = (y.length === 0)
 console.log(xy)
 
+//একটি ভেরিয়েবলে undefined অ্যাসাইন করো এবং সেটি কনসোল-এ প্রিন্ট করো।
+
+const isData = undefined
+
+console.log(isData)
+
 
 
