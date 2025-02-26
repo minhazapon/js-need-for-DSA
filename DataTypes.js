@@ -167,3 +167,8 @@ const arr2 = [1, 2, 3, 4, 5]
 
 arr2.push(6)
 console.log(arr2)
+
+//একটি অ্যারের প্রথম এলিমেন্ট প্রিন্ট করো।
+
+const allValues = ["apon", 'buger', 'pizza', 'biriyani']
+console.log(allValues[0])
