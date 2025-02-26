@@ -160,3 +160,10 @@ console.log(arr)
 
 const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 console.log(arr1)
+
+//একটি অ্যারেতে নতুন একটি সংখ্যা 6 যোগ করো।
+
+const arr2 = [1, 2, 3, 4, 5]
+
+arr2.push(6)
+console.log(arr2)
