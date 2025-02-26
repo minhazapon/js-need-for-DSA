@@ -87,8 +87,12 @@ console.log(xy)
 //একটি ভেরিয়েবলে undefined অ্যাসাইন করো এবং সেটি কনসোল-এ প্রিন্ট করো।
 
 const isData = undefined
-
 console.log(isData)
+
+//একটি ভেরিয়েবলে null অ্যাসাইন করো এবং সেটি কনসোল-এ প্রিন্ট করো।
+
+const isV = null
+console.log(isV)
 
 
 
