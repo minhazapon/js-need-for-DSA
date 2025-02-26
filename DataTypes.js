@@ -24,3 +24,15 @@ console.log(num)
 
 const names = "minhazul abedin apon"
 console.log(names.length)
+
+//একটি সংখ্যা ইনপুট নিয়ে সেটাকে স্ট্রিং-এ কনভার্ট করো।
+
+const numZ = 100
+const strNum = num.toString()
+console.log(strNum)
+
+//একটি স্ট্রিং ইনপুট নিয়ে সেটাকে বড় হাতের অক্ষরে (uppercase) কনভার্ট করো
+
+const strN = "bangladesh"
+const b = strN.toUpperCase()
+console.log(b)
