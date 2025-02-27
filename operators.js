@@ -135,3 +135,18 @@ let p = 8
 let q = p * 3 - 2
 
 console.log(q)
+
+//10 > 5 এর ফলাফল কী হবে?
+
+const c1 = 10 > 5
+console.log(c1)
+
+//8 < 3 এর ফলাফল কী হবে?
+
+const c2 = 8 < 3;
+console.log(c2)
+
+//7 >= 7 এর ফলাফল কী হবে?
+
+const c3 = 7 >= 7
+console.log(c3)
