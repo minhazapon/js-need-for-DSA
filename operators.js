@@ -111,3 +111,13 @@ console.log(v2)
 
 const v3 = 20 / 5
 console.log(v3)
+
+//15 % 4 এর ফলাফল কত?
+
+const v4 = 15 % 4
+console.log(v4)
+
+//2 ** 3 এর ফলাফল কত?
+
+const v5 = 2 ** 3
+console.log(v5)
