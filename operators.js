@@ -121,3 +121,10 @@ console.log(v4)
 
 const v5 = 2 ** 3
 console.log(v5)
+
+//let x = 5; x++; শেষে x এর মান কত?
+
+const z = 5
+z++;
+// console.log(z)
+
