@@ -165,3 +165,8 @@ console.log(c6)
 
 const c7 = 5 === "5"
 console.log(c7)
+
+//6 != 7 এর ফলাফল কী হবে?
+
+const c8 = 6 != 7
+console.log(c8)
