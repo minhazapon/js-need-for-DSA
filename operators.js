@@ -106,3 +106,8 @@ console.log(value)
 
 const v2 = 6 * 2
 console.log(v2)
+
+//20 / 5 এর ফলাফল কত?
+
+const v3 = 20 / 5
+console.log(v3)
