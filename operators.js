@@ -180,3 +180,8 @@ console.log(c9)
 
 const c10 = 0 == false
 console.log(c10)
+
+//null == undefined এর ফলাফল কী হবে?
+
+const nu = null == undefined
+console.log(nu)
