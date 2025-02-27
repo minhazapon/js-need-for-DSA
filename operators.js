@@ -86,3 +86,7 @@ const vb = true
 console.log(typeof vb)
 const vc = undefined
 console.log(typeof vc)
+
+
+//problem solving section
+
