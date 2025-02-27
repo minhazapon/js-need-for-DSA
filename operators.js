@@ -96,3 +96,13 @@ const f = 5
 const f2 = 3
 const allF = f + f2
 console.log(allF)
+
+//10 - 4 এর ফলাফল কত?
+
+const value = 10 - 4
+console.log(value)
+
+//6 * 2 এর ফলাফল কত?
+
+const v2 = 6 * 2
+console.log(v2)
