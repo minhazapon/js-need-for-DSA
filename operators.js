@@ -44,3 +44,12 @@ console.log(ecc)
 
 const exx = isNumber !== 300
 console.log(exx)
+
+
+// Logical Operators
+
+let numZ = 2000;
+let age = 50
+
+const lo = (numZ > 10) && (age > 40)
+console.log(lo)
