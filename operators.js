@@ -128,3 +128,10 @@ let a = 10;
 let b = a + 5
 
 console.log(b)
+
+//let p = 8; let q = p * 3 - 2; এখানে q এর মান কত?
+
+let p = 8
+let q = p * 3 - 2
+
+console.log(q)
