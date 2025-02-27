@@ -208,3 +208,8 @@ console.log(l3)
 
 const l4 = false || (5 > 2)
 console.log(l4)
+
+//(10 > 2) && (5 < 3) এর ফলাফল কী হবে?
+
+const l5 = (10 > 2) && (5 < 3)
+console.log(l5)
