@@ -228,3 +228,8 @@ console.log(l7)
 
 const l8 = !!0
 console.log(l8)
+
+//!null এর ফলাফল কী হবে?
+
+const l9 = !null
+console.log(l9)
