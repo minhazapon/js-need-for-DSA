@@ -90,3 +90,9 @@ console.log(typeof vc)
 
 //problem solving section
 
+//5 + 3 এর ফলাফল কত?
+
+const f = 5
+const f2 = 3
+const allF = f + f2
+console.log(allF)
