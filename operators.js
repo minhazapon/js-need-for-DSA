@@ -170,3 +170,13 @@ console.log(c7)
 
 const c8 = 6 != 7
 console.log(c8)
+
+//8 !== "8" এর ফলাফল কী হবে?
+
+const c9 = 8 !== "8"
+console.log(c9)
+
+//0 == false এর ফলাফল কী হবে?
+
+const c10 = 0 == false
+console.log(c10)
