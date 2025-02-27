@@ -223,3 +223,8 @@ console.log(l6)
 
 const l7 = (4 > 2) || (8 < 5)
 console.log(l7)
+
+//!!0 এর ফলাফল কী হবে?
+
+const l8 = !!0
+console.log(l8)
