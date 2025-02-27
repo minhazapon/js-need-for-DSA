@@ -57,3 +57,12 @@ console.log(lo)
 const lo1 = (numZ === 30) || (age > 40)
 console.log(lo1)
 
+//Assignment Operators 
+
+let x = 10;
+
+x += 20
+x -= 2
+x /= 20
+x *= 1000
+console.log(x)
