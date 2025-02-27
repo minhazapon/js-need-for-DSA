@@ -193,3 +193,8 @@ console.log(nu)
 
 const tf = true && false
 console.log(tf)
+
+//true || false এর ফলাফল কী হবে?
+
+const tf2 = true || false
+console.log(tf2)
