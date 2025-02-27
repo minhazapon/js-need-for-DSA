@@ -233,3 +233,8 @@ console.log(l8)
 
 const l9 = !null
 console.log(l9)
+
+//true && !false এর ফলাফল কী হবে?
+
+const l1000 = true && !false
+console.log(l1000)
