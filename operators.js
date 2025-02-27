@@ -150,3 +150,8 @@ console.log(c2)
 
 const c3 = 7 >= 7
 console.log(c3)
+
+//4 <= 9 এর ফলাফল কী হবে?
+
+const c4 = 4 <= 9
+console.log(c4)
