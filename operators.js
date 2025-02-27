@@ -53,3 +53,7 @@ let age = 50
 
 const lo = (numZ > 10) && (age > 40)
 console.log(lo)
+
+const lo1 = (numZ === 30) || (age > 40)
+console.log(lo1)
+
