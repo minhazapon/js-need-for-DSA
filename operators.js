@@ -76,3 +76,13 @@ const A = (N === 2000) ? "ternary is a good function" : "not good baby"
 
 console.log(A)
 
+//Type Operators
+
+const name = "apon"
+console.log(typeof name)
+const n1 = 12345676;
+console.log(typeof n1)
+const vb = true
+console.log(typeof vb)
+const vc = undefined
+console.log(typeof vc)
