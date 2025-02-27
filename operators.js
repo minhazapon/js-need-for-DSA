@@ -155,3 +155,13 @@ console.log(c3)
 
 const c4 = 4 <= 9
 console.log(c4)
+
+//5 == "5" এর ফলাফল কী হবে?
+
+const c6 = 5 == "5"
+console.log(c6)
+
+//5 === "5" এর ফলাফল কী হবে?
+
+const c7 = 5 === "5"
+console.log(c7)
