@@ -198,3 +198,13 @@ console.log(tf)
 
 const tf2 = true || false
 console.log(tf2)
+
+//!true এর ফলাফল কী হবে?
+
+const l3 = !true
+console.log(l3)
+
+//false || (5 > 2) এর ফলাফল কী হবে?
+
+const l4 = false || (5 > 2)
+console.log(l4)
