@@ -213,3 +213,13 @@ console.log(l4)
 
 const l5 = (10 > 2) && (5 < 3)
 console.log(l5)
+
+//!(7 == 7) এর ফলাফল কী হবে?
+
+const l6 = !(7 == 7)
+console.log(l6)
+
+//(4 > 2) || (8 < 5) এর ফলাফল কী হবে?
+
+const l7 = (4 > 2) || (8 < 5)
+console.log(l7)
