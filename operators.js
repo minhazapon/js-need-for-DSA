@@ -185,3 +185,11 @@ console.log(c10)
 
 const nu = null == undefined
 console.log(nu)
+
+
+//Logical Operators
+
+//true && false এর ফলাফল কী হবে?
+
+const tf = true && false
+console.log(tf)
