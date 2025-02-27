@@ -66,3 +66,13 @@ x -= 2
 x /= 20
 x *= 1000
 console.log(x)
+
+
+//Ternary Operator 
+
+const N = 2000
+
+const A = (N === 2000) ? "ternary is a good function" : "not good baby"
+
+console.log(A)
+
