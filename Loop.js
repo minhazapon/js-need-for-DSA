@@ -200,3 +200,15 @@ for (let i = 0; i < arrValue.length; i++) {
     console.log(value[i])
 
 }
+
+//while
+
+let v1 = 10;
+
+while (v1 < 100) {
+
+    const vv = v1
+    console.log(vv)
+    v1++
+
+}
