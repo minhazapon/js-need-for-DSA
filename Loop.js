@@ -109,3 +109,7 @@ for (let i = 1; i < 5; i++) {
 
 }
 console.log(value1)
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`2 x ${i} = ${2 * i}`);
+}
