@@ -167,3 +167,36 @@ do {
 যদি কমপক্ষে একবার লুপ চালানো প্রয়োজন ➝ do-while লুপ ব্যবহার করুন।
  */
 
+
+
+//for loop
+
+for (let i = 10; i < 100; i++) {
+
+    const value = i
+    console.log(value)
+
+}
+
+for (let i = 100; i < 1000; i++) {
+
+    const value = i
+    console.log(value)
+
+}
+
+for (let i = 2; i < 20 + 4; i++) {
+
+    const value = i
+    console.log(value)
+
+}
+
+let arrValue = [20, 30, 40, 50, 60, 70, 80, 900]
+
+for (let i = 0; i < arrValue.length; i++) {
+
+    const value = arrValue
+    console.log(value[i])
+
+}
