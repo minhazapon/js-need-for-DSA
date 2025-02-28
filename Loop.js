@@ -88,3 +88,24 @@ for (let i = 1; i < 10; i++) {
 
 }
 
+//5️⃣ ১ থেকে ১০ পর্যন্ত সংখ্যাগুলোর যোগফল বের করো।
+
+let value = 0
+
+for (let i = 1; i < 10; i++) {
+
+    value += i
+    console.log(value)
+
+}
+
+//6️⃣ ১ থেকে ৫ পর্যন্ত সংখ্যাগুলোর গুণফল বের করো।
+
+let value1 = 1
+
+for (let i = 1; i < 5; i++) {
+
+    value1 *= i
+
+}
+console.log(value1)
