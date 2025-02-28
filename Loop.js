@@ -212,3 +212,22 @@ while (v1 < 100) {
     v1++
 
 }
+
+let i = 20;
+
+while (i < 200) {
+
+    const value = i
+    console.log(value)
+    i++
+
+}
+
+let x = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+
+while (i < x.length) {
+
+    console.log(i)
+    i++
+
+}
