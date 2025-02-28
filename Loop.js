@@ -64,3 +64,11 @@ for (let i = 1; i < 11; i++) {
     console.log(i)
 
 }
+//2️⃣ ১ থেকে ৫০ পর্যন্ত সংখ্যা প্রিন্ট করো।
+
+for (let i = 1; i < 51; i++) {
+
+    console.log(i)
+
+}
+
