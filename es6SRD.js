@@ -85,3 +85,17 @@ function sumAll(...all) {
 
 const numberValue = sumAll(10, 20, 2233, 455, 5, 45)
 console.log(numberValue)
+
+//6️⃣ Spread Operator দিয়ে একটি অ্যারে কপি করো এবং নতুন মান যোগ করো
+
+const numbers = [10, 20, 30];
+const an = [...numbers, 50, 60]
+console.log(an)
+
+//Object Destructuring ব্যবহার করে Default Value সেট করো
+
+const user = { nameZZ: "Hasan" };
+
+const { nameZZ, n = "bangladesh" } = user
+
+console.log(nameZZ, n)
