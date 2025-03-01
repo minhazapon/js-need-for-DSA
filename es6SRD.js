@@ -43,3 +43,22 @@ const arr2 = [4, 5, 6];
 const allArr = [...arr1, ...arr2]
 
 console.log(allArr)
+
+//2️⃣ Spread Operator দিয়ে একটি Object কপি করো এবং নতুন Property যোগ করো
+
+const obj = { name: "apon", age: 23, }
+
+const obj2 = { ...obj, profession: "software developer" }
+
+const allObj = { ...obj2 }
+
+console.log(allObj)
+
+//3️⃣ Array Destructuring ব্যবহার করে নিচের মানগুলো আলাদা করো
+
+const fruits = ["Apple", "Banana", "Mango"];
+
+const [x, y, z] = fruits
+
+console.log(x, y, z)
+
