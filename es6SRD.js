@@ -106,3 +106,14 @@ const obj1 = { a: 1, b: 2 };
 const objs2 = { c: 3, d: 4 };
 const objThree = { ...obj1, ...objs2 }
 console.log(objThree)
+
+//🔟 Destructuring ব্যবহার করে ফাংশন থেকে রিটার্ন হওয়া মান ধরো
+
+function getUser() {
+    return { nameA: "Tariq", ageA: 30 };
+}
+
+const { nameA, ageA } = getUser()
+
+console.log(nameA, ageA)
+
