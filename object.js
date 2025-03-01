@@ -126,4 +126,15 @@ const user = {
 
 console.log(user.hasOwnProperty("username"))
 
+//✅ Q5: অবজেক্টের মোট প্রপার্টি সংখ্যা বের করো
+
+const car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2020,
+    color: "White"
+};
+
+console.log(Object.keys(car).length)
+
 
