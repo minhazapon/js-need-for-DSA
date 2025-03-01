@@ -62,3 +62,15 @@ const [x, y, z] = fruits
 
 console.log(x, y, z)
 
+//4️⃣ Object Destructuring ব্যবহার করে নিচের অবজেক্ট থেকে মান বের করো
+
+const student = {
+    name: "Karim",
+    age: 22,
+    city: "Chattogram"
+};
+
+const { name, age, city } = student
+
+console.log(name)
+
