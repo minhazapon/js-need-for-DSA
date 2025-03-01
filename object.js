@@ -59,3 +59,24 @@ const information = {
 }
 
 console.log(Object.entries(information))
+
+// 4️⃣ hasOwnProperty()
+// 🔹 এটি চেক করে কোনো অবজেক্টে নির্দিষ্ট একটি property আছে কিনা।
+
+
+const aponInformationZ = {
+
+    name: "minhazul abedin apon",
+    age: 23,
+    number: 1950374409,
+    profession: "software developer",
+    country: "bangladesh",
+    district: "jhenaidah",
+    location: "jhenaidah sadar",
+    company: ` microsoft google toptal `
+
+}
+
+console.log(aponInformationZ.hasOwnProperty("profession"))
+console.log(aponInformationZ.hasOwnProperty("bangladesh"))
+
