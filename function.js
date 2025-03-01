@@ -21,3 +21,15 @@ const arrF = (x, y) => {
 }
 
 arrF(10, 20)
+
+//একটি অ্যারো ফাংশন লিখো যা একটি স্ট্রিং ইনপুট হিসেবে নিবে এবং সেই স্ট্রিংটির দৈর্ঘ্য ফেরত দেবে।
+
+
+const valueL = (x) => {
+
+    const value = x
+    console.log(value)
+
+}
+
+valueL("bangladesh".length)
