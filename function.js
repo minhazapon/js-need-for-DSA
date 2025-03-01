@@ -55,3 +55,12 @@ const allNumber = (num1, num2, num3) => {
 }
 
 allNumber(20, 30, 40)
+
+//একটি Higher Order Function তৈরি করো যা একটি অ্যারে থেকে যেসব সংখ্যা ১০ এর বেশি, সেগুলো বের করবে।
+
+
+const valueZ = [10, 20, 30, 40, 50, 60, 70]
+
+const v = valueZ.filter(num => num > 20)
+
+console.log(v)
