@@ -117,4 +117,13 @@ const book = {
 
 console.log(Object.entries(book))
 
+//✅ Q4: অবজেক্টে নির্দিষ্ট প্রপার্টি আছে কিনা চেক করো
+
+const user = {
+    username: "rakib123",
+    password: "abc123"
+};
+
+console.log(user.hasOwnProperty("username"))
+
 
