@@ -99,3 +99,10 @@ const user = { nameZZ: "Hasan" };
 const { nameZZ, n = "bangladesh" } = user
 
 console.log(nameZZ, n)
+
+//9️⃣ Spread Operator দিয়ে দুইটা Object মিশিয়ে নতুন Object তৈরি করো
+
+const obj1 = { a: 1, b: 2 };
+const objs2 = { c: 3, d: 4 };
+const objThree = { ...obj1, ...objs2 }
+console.log(objThree)
