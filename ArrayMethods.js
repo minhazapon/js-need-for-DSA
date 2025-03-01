@@ -43,3 +43,13 @@ const valueSplice = [1, 2, 3, 4, 5566]
 valueSplice.splice(2, 1, 20000)
 
 console.log(valueSplice)
+
+// 6. slice(startIndex, endIndex)
+// ➡️ এটি নির্দিষ্ট অংশ কপি করে নতুন অ্যারে রিটার্ন করে, তবে মূল অ্যারে পরিবর্তন হয় না।
+
+const Vlice = [200, 300, 400, 500]
+
+const vv = Vlice.slice(0, 2)
+
+console.log(vv)
+
