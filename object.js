@@ -44,3 +44,18 @@ const company1 = {
 }
 
 console.log(Object.values(company1))
+
+// 3️⃣ Object.entries()
+// 🔹 এটি একটি অবজেক্টের সব কী - মান জোড়া(key - value pairs) কে নেস্টেড অ্যারে আকারে রিটার্ন করে।
+
+const information = {
+
+    name: "Minhaz",
+    name1: "javaScript",
+    name2: "react.js",
+    name3: "DSA",
+    passionFor: "leet code"
+
+}
+
+console.log(Object.entries(information))
