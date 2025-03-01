@@ -53,3 +53,21 @@ const vv = Vlice.slice(0, 2)
 
 console.log(vv)
 
+// 7. map(callback)
+// ➡️ এটি প্রতিটি এলিমেন্টের উপর একটি ফাংশন প্রয়োগ করে এবং একটি নতুন অ্যারে তৈরি করে।
+
+const mapValue = [1, 2, 3, 4, 5, 6, 7, 8]
+
+const allValue = mapValue.map(nums => nums * 2)
+
+console.log(allValue)
+
+// 8. filter(callback)
+// ➡️ এটি নির্দিষ্ট শর্ত অনুযায়ী এলিমেন্ট ফিল্টার করে নতুন অ্যারে তৈরি করে।
+
+const allFilter = [234, 5, 56, , 4, 54, 56, 456, 6]
+
+const FilterValue = allFilter.filter(num => num / 4 > 10)
+
+console.log(FilterValue)
+
