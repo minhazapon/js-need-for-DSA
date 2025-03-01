@@ -74,3 +74,14 @@ const { name, age, city } = student
 
 console.log(name)
 
+//5️⃣ Rest Parameters ব্যবহার করে অসংখ্য সংখ্যার যোগফল বের করো
+
+
+function sumAll(...all) {
+
+    return all.reduce((acc, num) => acc + num, 0)
+
+}
+
+const numberValue = sumAll(10, 20, 2233, 455, 5, 45)
+console.log(numberValue)
