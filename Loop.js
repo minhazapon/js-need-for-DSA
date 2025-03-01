@@ -144,8 +144,22 @@ for (let i = 3; i < 20; i += 2) {
 
 //1️⃣1️⃣ একটি সংখ্যা ইনপুট নিয়ে, তার পর্যন্ত সংখ্যা প্রিন্ট করো।
 
-for (let i = 20; i < 100; i++) {
+
+let num = 100
+
+for (let i = 20; i < num; i++) {
 
     console.log(i)
 
 }
+
+let nums = 50
+let number = 0
+
+for (let i = 1; i < nums; i++) {
+
+    number += i
+
+}
+
+console.log(number)
