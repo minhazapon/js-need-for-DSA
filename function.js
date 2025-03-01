@@ -10,3 +10,14 @@ function plus(a, b) {
 }
 
 plus(5, 10)
+
+//একটি অ্যারো ফাংশন লিখো যা দুটি সংখ্যার গুণফল প্রদান করবে।
+
+const arrF = (x, y) => {
+
+    const arwValue = x * y
+    console.log(arwValue)
+
+}
+
+arrF(10, 20)
