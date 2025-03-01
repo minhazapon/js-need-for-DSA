@@ -162,3 +162,16 @@ const { nameA, position, salary = 2000 } = employee
 console.log(nameA, position, salary)
 
 
+//✅ Q9: অবজেক্টের মানগুলোর যোগফল বের করো
+
+const marks = {
+    math: 80,
+    physics: 75,
+    chemistry: 90,
+    english: 85
+};
+
+const allMarks = Object.values(marks).reduce((acc, num) => acc + num, 0)
+
+console.log(allMarks)
+
