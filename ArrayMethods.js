@@ -25,3 +25,13 @@ const sValue = [22, 3445, 45, 5, 5656]
 sValue.shift();
 
 console.log(sValue)
+
+// 4. unshift()
+// ➡️ এটি অ্যারের শুরুতে নতুন এলিমেন্ট যোগ করে।
+
+const unValue = [10, 234, 4, 5, 6, 667, 67335]
+
+unValue.unshift(1000000);
+
+console.log(unValue)
+
