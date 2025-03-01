@@ -41,3 +41,17 @@ const valueMap = [1, 2, 3, 4, 5, 6, 7, 8]
 const all = valueMap.map(value => value * value)
 
 console.log(all[7])
+
+//একটি সাধারণ ফাংশন তৈরি করো যা তিনটি সংখ্যার গড় (average) বের করবে।
+
+const allNumber = (num1, num2, num3) => {
+
+    const allNum = num1 + num2 + num3
+
+    const numAvg = allNum / 3
+
+    console.log(numAvg)
+
+}
+
+allNumber(20, 30, 40)
