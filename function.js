@@ -64,3 +64,15 @@ const valueZ = [10, 20, 30, 40, 50, 60, 70]
 const v = valueZ.filter(num => num > 20)
 
 console.log(v)
+
+//একটি অ্যারো ফাংশন তৈরি করো যা দুটি সংখ্যা নেবে এবং যদি কোনো সংখ্যা না দেওয়া হয়, তাহলে ডিফল্ট মান হিসেবে ৫ নিবে।
+
+
+const defaultValues = (a = 5, b = 10, c = 20) => {
+
+    const all = a * b * c
+    console.log(all)
+
+}
+
+defaultValues()
