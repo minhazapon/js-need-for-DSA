@@ -150,4 +150,15 @@ const InfoZ = Object.values(info).filter(value => typeof value === "string")
 
 console.log(InfoZ[0], InfoZ[1])
 
+//✅ Q7: অবজেক্টে নির্দিষ্ট প্রপার্টি না থাকলে ডিফল্ট মান সেট করো
+
+const employee = {
+    nameA: "Nayem",
+    position: "Software Engineer"
+};
+
+const { nameA, position, salary = 2000 } = employee
+
+console.log(nameA, position, salary)
+
 
