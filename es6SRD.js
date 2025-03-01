@@ -31,3 +31,15 @@ function restValue(...nameZ) {
 
 }
 console.log("apon", "shemanto", "alamin")
+
+
+//problem solving section
+
+//1️⃣ Spread Operator দিয়ে দুইটা Array merge করো
+
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+
+const allArr = [...arr1, ...arr2]
+
+console.log(allArr)
