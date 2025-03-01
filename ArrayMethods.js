@@ -35,3 +35,11 @@ unValue.unshift(1000000);
 
 console.log(unValue)
 
+// 5. splice(startIndex, deleteCount, newElements...)
+// ➡️ এটি নির্দিষ্ট ইনডেক্স থেকে এলিমেন্ট মুছে ফেলা বা নতুন এলিমেন্ট যোগ করার জন্য ব্যবহৃত হয়।
+
+const valueSplice = [1, 2, 3, 4, 5566]
+
+valueSplice.splice(2, 1, 20000)
+
+console.log(valueSplice)
