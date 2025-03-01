@@ -175,3 +175,5 @@ const allMarks = Object.values(marks).reduce((acc, num) => acc + num, 0)
 
 console.log(allMarks)
 
+/////finish
+
