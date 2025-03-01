@@ -33,3 +33,11 @@ const valueL = (x) => {
 }
 
 valueL("bangladesh".length)
+
+//একটি অ্যারো ফাংশন লিখো যা একটি অ্যারের প্রতিটি সংখ্যার বর্গফল (square) হিসাব করবে।
+
+const valueMap = [1, 2, 3, 4, 5, 6, 7, 8]
+
+const all = valueMap.map(value => value * value)
+
+console.log(all[7])
