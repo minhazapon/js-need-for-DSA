@@ -80,3 +80,41 @@ const aponInformationZ = {
 console.log(aponInformationZ.hasOwnProperty("profession"))
 console.log(aponInformationZ.hasOwnProperty("bangladesh"))
 
+
+//problem solving section
+
+//✅ Q1: অবজেক্টের সব কী বের করো
+
+const student = {
+
+    name: "Araf",
+    age: 20,
+    grade: "A"
+
+};
+
+console.log(Object.keys(student))
+
+//✅ Q2: অবজেক্টের সব মান বের করো
+
+const person = {
+
+    firstName: "Mehedi",
+    lastName: "Hasan",
+    age: 22
+
+};
+
+console.log(Object.values(person))
+
+//✅ Q3: অবজেক্ট থেকে কী-মান জোড়া বের করো
+
+const book = {
+    title: "JavaScript Guide",
+    author: "John Doe",
+    year: 2022
+};
+
+console.log(Object.entries(book))
+
+
