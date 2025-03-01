@@ -137,4 +137,17 @@ const car = {
 
 console.log(Object.keys(car).length)
 
+//✅ Q6: অবজেক্ট থেকে শুধুমাত্র স্ট্রিং টাইপের ভ্যালু বের করো
+
+const info = {
+    name: "Hasan",
+    age: 30,
+    city: "Dhaka",
+    married: false
+};
+
+const InfoZ = Object.values(info).filter(value => typeof value === "string")
+
+console.log(InfoZ[0], InfoZ[1])
+
 
