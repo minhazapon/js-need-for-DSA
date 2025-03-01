@@ -71,3 +71,12 @@ const FilterValue = allFilter.filter(num => num / 4 > 10)
 
 console.log(FilterValue)
 
+// 9. reduce(callback, initialValue)
+// ➡️ এটি একটি অ্যারের সব এলিমেন্ট একসাথে যোগ বা প্রসেস করে একটি মান রিটার্ন করে।
+
+const NumReduce = [2200, 3000, 4000]
+
+const alRe = NumReduce.reduce((acc, re) => acc + re, 0)
+
+console.log(alRe)
+
