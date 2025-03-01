@@ -31,3 +31,16 @@ const allInfo = {
 }
 
 console.log(Object.keys(allInfo))
+
+// 2️⃣ Object.values()
+// 🔹 এটি একটি অবজেক্টের সব মান(property values) কে অ্যারে আকারে রিটার্ন করে।
+
+const company1 = {
+
+    c1: "toptal",
+    c2: "microsoft",
+    c3: "River Point"
+
+}
+
+console.log(Object.values(company1))
