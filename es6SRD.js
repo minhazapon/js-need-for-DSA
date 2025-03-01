@@ -30,5 +30,4 @@ function restValue(...nameZ) {
     console.log(` all Name is ${nameZ} `)
 
 }
-
 console.log("apon", "shemanto", "alamin")
