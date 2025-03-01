@@ -22,3 +22,13 @@ const names = ["apon", "minhaz", "alamin", "limon", "munna"]
 const [a, b, c, d, e] = names
 
 console.log(a, b)
+
+//Rest Parameters (...)
+
+function restValue(...nameZ) {
+
+    console.log(` all Name is ${nameZ} `)
+
+}
+
+console.log("apon", "shemanto", "alamin")
