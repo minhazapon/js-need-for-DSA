@@ -14,3 +14,11 @@ const A = { name: "zzz", age: 50 }
 const B = { ...A, location: 'jhenaidah' }
 
 console.log(B)
+
+//2️⃣ Destructuring
+
+const names = ["apon", "minhaz", "alamin", "limon", "munna"]
+
+const [a, b, c, d, e] = names
+
+console.log(a, b)
